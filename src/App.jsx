@@ -1,13 +1,11 @@
-
+import Star from "./Components/Star";
 
 function App() {
-  
-
-  return (
-    <>
-     
-    </>
-  )
+    return (
+        <>
+            <Star stars={10} />
+        </>
+    );
 }
 
-export default App
+export default App;
